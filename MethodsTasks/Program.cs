@@ -45,7 +45,7 @@ public static class Methods
     public static void IsDivided(int num)
     {
         if (num % 7 == 0) Console.WriteLine("7 ye bolunur");
-        else Console.WriteLine(num);
+        else Console.WriteLine((num - (num % 7)));
     }
 
     public static int FindPerimeter(int a, int b, int c)
